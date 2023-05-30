@@ -10,7 +10,10 @@
     "Manuel Muñoz (https://github.com/jaidis)"
   ],
   "nativePackage": true,
-  "repository": "https://github.com/azyabon/ibeacon-simulator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyabon/ibeacon-simulator.git"
+  },
   "keywords": [
     "react-native",
     "react",
