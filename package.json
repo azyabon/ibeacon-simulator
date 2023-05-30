@@ -1,0 +1,29 @@
+{
+  "name": "@jaidis/react-native-ibeacon-simulator",
+  "version": "2.0.0",
+  "description": "A cool package for simulate your iOS devices as beacon (compatible with RN 0.59.x)",
+  "author": "William Tran <chitran.whitecat@gmail.com>",
+  "contributors": [
+    "William Tran (https://github.com/williamtran29)",
+    "Dennis Borshchevski (https://github.com/dennis-b)",
+    "Harvey Connor (https://github.com/harveyconnor)",
+    "Manuel Muñoz (https://github.com/jaidis)"
+  ],
+  "nativePackage": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaidis/react-native-ibeacon-simulator.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "bluetooth",
+    "ibeacon",
+    "beacon simulator"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaidis/react-native-ibeacon-simulator/issues"
+  },
+  "homepage": "https://github.com/jaidis/react-native-ibeacon-simulator#readme"
+}

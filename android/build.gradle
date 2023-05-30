@@ -1,0 +1,41 @@
+
+
+buildscript {
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}
+
+// setup dependencies repositories
+repositories {
+    mavenLocal()
+    google()
+    jcenter()
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 33
+    namespace "com.ibeacon.simulator"
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 2
+        versionName "2.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:0.71.0-rc.0'
+    implementation 'org.altbeacon:android-beacon-library:2.19.5'
+}
