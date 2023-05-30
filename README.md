@@ -1,12 +1,5 @@
 React Native Module that broadcasts an iBeacon uuid.
 
-# Setup
-```
-npm install --save @jaidis/react-native-ibeacon-simulator
-```
-
-Please don't try to use react-native link at your RN 0.60.X project
-
 # Setup Android
 
 Add project to `android/settings.gradle`:
@@ -89,18 +82,3 @@ BeaconBroadcast.checkTransmissionSupported()
   - NOT_SUPPORTED_CANNOT_GET_ADVERTISER_MULTIPLE_ADVERTISEMENTS
 })
 ```
-
-# Contributors
-- William Tran [https://github.com/williamtran29]
-- Dennis Borshchevski [https://github.com/dennis-b]
-- Harvey Connor [https://github.com/harveyconnor]
-- Manuel Muñoz [https://github.com/jaidis]
-
-# Features WIP
-- [x] Create beacon
-- [ ] Allow peripherals to connect to beacon
-- [ ] Read/write characteristics to beacon
-- [ ] Read/write characteristics to central
-
-# TODO
-- [ ] Create a types file for the class
