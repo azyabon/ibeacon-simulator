@@ -1,5 +1,5 @@
 {
-  "name": "@jaidis/react-native-ibeacon-simulator",
+  "name": "@azyabon/react-native-ibeacon-simulator",
   "version": "2.0.0",
   "description": "A cool package for simulate your iOS devices as beacon (compatible with RN 0.59.x)",
   "author": "William Tran <chitran.whitecat@gmail.com>",
@@ -10,10 +10,7 @@
     "Manuel Muñoz (https://github.com/jaidis)"
   ],
   "nativePackage": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaidis/react-native-ibeacon-simulator.git"
-  },
+  "repository": "https://github.com/azyabon/ibeacon-simulator",
   "keywords": [
     "react-native",
     "react",
@@ -25,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/jaidis/react-native-ibeacon-simulator/issues"
   },
-  "homepage": "https://github.com/jaidis/react-native-ibeacon-simulator#readme"
+  "homepage": "https://github.com/jaidis/react-native-ibeacon-simulator#readme",
+  "main": "index.js"
 }
